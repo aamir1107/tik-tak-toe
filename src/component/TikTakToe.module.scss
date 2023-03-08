@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    width: 100vw;
+
+}
+
+body {
+    background-image: url(./../images/tikTak.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+
+
+
+    .mainSection {
+        font-size: 40px;
+        text-align: center;
+        color: chocolate;
+
+
+
+
+
+
+        .tikTakToeSectionLine {
+
+            display: flex;
+            justify-content: center;
+
+
+
+
+            .section {
+                border: 2px solid black;
+                height: 150px;
+                width: 150px;
+                text-align: center;
+
+                .sectionBox {
+                    height: 150px;
+                    width: 150px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    margin: auto;
+                    justify-content: center;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+}
